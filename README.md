@@ -1,3 +1,7 @@
+# Oracle Logging Framework (OLF)
+
+## Getting Started
+
 The Oracle Logging Framework (OLF) is an Oracle PL/SQL based logging and debugging 
 utility that supports "levels" similar to Log4J. The key feature of the OLF is the 
 ability to dynamically set a logging level based on almost any combination of module, 
@@ -31,7 +35,7 @@ ALL < DEBUG < INFO < WARN < ERROR < FATAL< TIMED < OFF. A default level of FATAL
 assigned in the OLF code and can be overridden in the dynamic configuration or it can 
 be explicitly set.
 
-Dynamic Control
+### Dynamic Control
 
 One of the biggest features of the OLF is the ability to dynamically set log levels. 
 Whether it's for a single user, program or task you don't want to have to stop 
@@ -39,10 +43,11 @@ everything and reset a configuration file and then restart the application. You 
 want to be able to set the logging dynamically on the fly. With the OLF you can do this 
 through the dblog_config table.
 
-Simple Example
+## Simple Example
 
 A very simple example of a logged PL/SQL block is the following:
 
+```
 declare
   l_num number;
 begin
@@ -65,3 +70,16 @@ exception
     --
     RAISE;
 end;
+```
+
+## Authors
+
+* **Andy Rivenes** - *Initial work* - [AndyRivenes](https://github.com/AndyRivenes/OLF)
+
+
+## License
+
+This project is licensed under the GNU LESSER GENERAL PUBLIC LICENSE, Version 3,
+29 June 2007 - see the [LICENSE.md](LICENSE.md) file for details
+
+
