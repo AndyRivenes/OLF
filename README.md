@@ -14,19 +14,19 @@ The OLF has been moved to Git ...
 
 The OLF provides the ability to support the following instrumentation categories:
 
-  • Debugging
-  • Logging
-  • Runtime registration
-  • Metric collection
-  • Logging Levels
+* Debugging
+* Logging
+* Runtime registration
+* Metric collection
+* Logging Levels
 
 The Oracle Logging Framework (OLF) follows the basic Log4j logging levels and values:
 
-  • FATAL - 50000
-  • ERROR - 40000
-  • WARN - 30000
-  • INFO - 20000
-  • DEBUG - 10000
+* FATAL - 50000
+* ERROR - 40000
+* WARN - 30000
+* INFO - 20000
+* DEBUG - 10000
 
 Log4j also includes an ALL and an OFF level, and the Oracle Logging Framework (OLF) 
 includes these levels as well as a TIMED level that is used to insure that task timing 
