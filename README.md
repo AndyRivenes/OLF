@@ -10,7 +10,7 @@ Library for Oracle (ILO) to provide task timing and extended SQL tracing, and si
 OLF requires the setting of module and action to be effective, the ILO is the best suited 
 utility to provide that functionality.
 
-The OLF has been moved to Git ...
+The OLF project has been moved to GitHub at https://github.com/AndyRivenes/OLF
 
 The OLF provides the ability to support the following instrumentation categories:
 
@@ -80,6 +80,6 @@ end;
 ## License
 
 This project is licensed under the GNU LESSER GENERAL PUBLIC LICENSE, Version 3,
-29 June 2007 - see the [LICENSE.md](LICENSE.md) file for details
+29 June 2007 - see the COPYING.txt and COPYONG_LESSER.txt files for details
 
 
