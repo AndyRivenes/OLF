@@ -5,12 +5,14 @@
 The Oracle Logging Framework (OLF) is an Oracle PL/SQL based logging and debugging 
 utility that supports "levels" similar to Log4J. The key feature of the OLF is the 
 ability to dynamically set a logging level based on almost any combination of module, 
-action, username, and sid and instance_id. The OLF is integrated with the Instrumentation 
+action, username, and sid and instance_id. The OLF is integrated with the Method-R Instrumentation 
 Library for Oracle (ILO) to provide task timing and extended SQL tracing, and since the 
 OLF requires the setting of module and action to be effective, the ILO is the best suited 
 utility to provide that functionality.
 
 The OLF project has been moved to GitHub at https://github.com/AndyRivenes/OLF
+
+The Instrumentation Library for Oracle can be found here: https://method-r.com/ilo/
 
 The OLF provides the ability to support the following instrumentation categories:
 
